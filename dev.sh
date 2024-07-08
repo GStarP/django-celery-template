@@ -1,7 +1,7 @@
 docker run --name mysql -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root mysql:8
 docker run -d -p 6379:6379 redis
 
-create database mps_dev character set utf8mb4 collate utf8mb4_general_ci;
+create database rtc character set utf8mb4 collate utf8mb4_general_ci;
 
 pip freeze > requirements.txt
 
